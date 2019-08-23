@@ -1,0 +1,112 @@
+
+
+/* datatables custom css */
+
+table.dataTable thead th, table.dataTable thead td{
+	border-bottom: 1px solid #4fc3f7 !important;
+}
+
+table.dataTable.no-footer{
+	border-bottom: 1px solid #4fc3f7 !important;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button{
+	border-radius: 0px !important;
+}
+
+.datatable_show {
+	width: 100%;
+	text-align: left;
+	border:1px solid #ccc;
+}
+
+table.datatable_show thead th, table.datatable_show tfoot th {
+	background-color: #535556;
+	text-align: center;
+	border: medium none;
+	color: #fff;
+}
+
+table.datatable_show thead th, table.datatable_show thead td{
+  	border-bottom:medium none;
+}
+
+table.datatable_show tbody th, table.datatable_show tbody td{
+	padding: 13px;
+	vertical-align: middle;
+	text-align: center;
+}
+
+table.datatable_show tbody tr {
+	background-color: #ffffff;
+	text-align: center;
+}
+
+/* added by parthiban */
+.datatable_split{
+	/* padding:16px;
+	background: #fff;*/
+}
+
+.add_button{
+	margin-bottom: 10px;
+	/*padding: 5px;*/
+	background: #fff;
+}
+
+.dataTables_wrapper .dataTables_filter input {
+	padding: 5px;
+	color: #1d2b36;
+	border: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.dataTables_wrapper .dataTables_length select {
+	padding: 5px;
+	color: #1d2b36;
+	border: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.disabled, .dataTables_wrapper .dataTables_paginate .paginate_button.disabled:hover, .dataTables_wrapper .dataTables_paginate .paginate_button.disabled:active{
+	background: #535556;
+	color: #fff !important;
+	cursor: pointer;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover{
+	cursor: pointer;
+	background: #535556;
+	color: #fff !important;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover{
+	background: #37bc9b;
+	color: #fff !important;
+	border: medium none;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+	background: #535556;
+	color: #fff !important;
+	cursor: pointer;
+}
+
+i.icon-check.check_green {
+    color: #37bc9b;
+}
+
+i.icon-close.check_red {
+    color: #da4453;
+}
+
+.jconfirm .jconfirm-scrollpane{
+ 	width:160% !important;
+}
+
+.closebtn {
+	color: #ffffff;
+	font-weight: bold;
+	float: right;
+	font-size: 25px;
+	line-height: 15px;
+	cursor: pointer;
+}

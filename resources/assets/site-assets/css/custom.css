@@ -1,0 +1,17 @@
+.btn{
+	border-radius: 0px !important;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button{
+	border-radius: 0px !important;
+}
+
+.each-page-title{
+    text-transform: uppercase;
+    /*border-bottom: 1px solid #ddd;*/
+    padding-bottom: 15px;
+}
+
+.custom-success-box{
+	color: #fff !important;
+}
